@@ -19,4 +19,8 @@ git push -u origin test
 git checkout main // to comeback to main branch
 git merge test
 
+undo changes
+git reset --soft "commit hash"
+git revert "commit hash"
 
+git merge and brach
