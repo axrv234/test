@@ -14,7 +14,7 @@ class AccumulateTest(unittest.TestCase):
     def test_divmod(self):
         self.assertEqual(
             accumulate([10, 17, 23], lambda x: divmod(x, 7)),
-            [(1, 3), (2, 3), (3, 2)])
+            [(1, 3), (2, 3), (3, 3)])
 
     def test_composition(self):
         inp = [10, 17, 23]
