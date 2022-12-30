@@ -1,0 +1,6 @@
+git clone https://github.com/github/training-kit.git
+
+go to wanted directroy
+git init
+git add .
+git checkout -b test
