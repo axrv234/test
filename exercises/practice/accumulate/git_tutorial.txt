@@ -1,6 +1,22 @@
+first clone
 git clone https://github.com/github/training-kit.git
 
-go to wanted directroy
+make changes in code or files
 git init
+git status
 git add .
+git status
+git commit -m "git tutorial"
+git branch -M main
+git remote origin https://github.com/axrv234/test.git
+git push -u origin main
+
+git branch
 git checkout -b test
+make changes
+git add .
+git push -u origin test
+git checkout main // to comeback to main branch
+git merge test
+
+
