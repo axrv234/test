@@ -23,4 +23,4 @@ undo changes
 git reset --soft "commit hash"
 git revert "commit hash"
 
-git merge and brach
+git merge and branch
